@@ -1,0 +1,15 @@
+{
+  "synonyms": {
+  },
+  "categoryBoosts": [
+  ],
+  "weights": {
+    "overlap": 2.0,
+    "filename": 1.0,
+    "category": 1.0
+  },
+  "fuzzy": {
+    "enabled": false,
+    "maxDistance": 1
+  }
+}

@@ -1,0 +1,37 @@
+@import "tailwindcss";
+* {
+  font-family: "Geist", sans-serif;
+}
+/* helper for inverting white icons on dark */
+.img-white {
+  filter: invert(100%);
+}
+
+@theme {
+  /* -- Colors -- */
+  --color-bg: #ffffff;
+  --color-panel: #fafafa;
+  --color-tile: #fafafa;
+  --color-tile-border: #e6e6e6;
+  --color-tile-hover: #cfd6e4;
+  --color-fg: #0b1020;
+  --color-muted: #6b7280;
+  --color-accent: #c9f36b;
+  --color-accent-hover: #133400;
+  --color-accent-border: #cdff71;
+  --color-control: #eef1f6;
+
+  /* -- Box Shadow -- */
+  --shadow-inset-thin: inset 0 0 0 1px #0b0d0f;
+
+  /* -- Background Image -- */
+  --background-image-checker: conic-gradient(
+    #f6f7f9 25%,
+    transparent 0 50%,
+    #f6f7f9 0 75%,
+    transparent 0
+  );
+
+  /* -- Background Size -- */
+  --background-size-checker: 40px 40px;
+}
