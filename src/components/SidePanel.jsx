@@ -247,7 +247,7 @@ export default function SidePanel({ item, onClose, onCopied }) {
 
   return (
     <aside className="overflow-y-scroll h-screen border-l border-tile-border bg-white  flex flex-col">
-      <div className=" bg-tile border-b border-tile-border">
+      <div className=" bg-tile p-4 border-b border-tile-border">
         <h3 className="text-base font-semibold">{prettyName(item.fileName)}</h3>
         {/* <button
           className="h-9 px-3 rounded-lg border border-tile-border bg-panel"
